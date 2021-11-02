@@ -1,0 +1,12 @@
+{
+  "name": "Food Log Helper",
+  "description": "Just a little bit to fix the page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+	{
+	  "matches": ["https://www.nutritionix.com/dashboard"],
+	  "js": ["contentScript.js"]
+	}
+  ]
+}
